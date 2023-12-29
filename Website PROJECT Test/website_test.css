@@ -1,0 +1,92 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.main{
+   width: 100%;
+   height: 100vh;
+   background-image:linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%), url("book.jpg");
+   background-position: center;
+   background-size: cover;
+}
+
+.main .navbar{
+   width: 1200px;
+   height: 75px;
+   margin: auto;
+}
+
+.navbar .icon{
+   width: 200px;
+   height: 70px;
+   float: left;
+}
+.icon .logo{
+   color: #f72000;
+   padding-left: 35px;
+   padding-top: 10px;
+   font-family: Arial;
+   font-size: 35px;
+   float: left;
+}
+
+.navbar .menu{
+   width: 400px;
+   height: 70px;
+   float: left;
+}
+
+.menu ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menu ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+
+}
+
+.menu ul li a{
+   color: white;
+   text-decoration: none;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+   cursor: pointer;
+}
+
+.menu li a:hover{
+   color: #f72000;
+}
+
+.search{
+   width: 300px;
+   float: left;
+   margin-left: 200px;
+}
+.search .srch{
+   font-family: 'Times New Roman';
+   font-size: 16px;
+   height: 40px;
+   width: 200px;
+   border-right: none;
+   margin-top: 13px;
+   color: white;
+   border-radius: 5px;
+   border: 1px solid #ff7200;
+   background: transparent;
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.search .btn{
+   width: 100px;
+}
