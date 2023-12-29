@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TABLE IN CSS</title>
+   <style>
+      table{
+         width: 50%;
+         margin: auto;
+         background-color: gainsboro;
+         text-align: center;
+         font-family: 'Times New Roman', Times, serif;
+      }
+      table, th, tr td{
+      border: 1px solid black;
+      
+      border-collapse: collapse;
+   }
+
+   #russ{
+      background-color: green;
+   }
+   th{
+      background-color: black;
+      color: white;
+   }
+   .ade{
+      background-color: orange;
+   }
+   </style>
+      <!--26/9/2023
+   By Ojo Yusuf Abdulazeez
+   -->
+</head>
+<body>
+   <table>
+      <tr>
+         <th>NAME</th>
+         <th>STATE</th>
+         <th>AGE</th>
+         <th>GENDER</th>
+      </tr>
+
+      <tr>
+         <td class="ade">ADEPOJU TAIWO</td>
+         <td>USA</td>
+         <td>17</td>
+         <td>Male</td>
+      </tr>
+
+      <tr>
+         <td>AMINA ALIMI</td>
+         <td>BEGIUM</td>
+         <td>19</td>
+         <td>Female</td>
+      </tr>
+
+      <tr>
+         <td>PAUL KAGAME</td>
+         <td>Rwanda</td>
+         <td>34</td>
+         <td>Male</td>
+      </tr>
+
+      <tr id="russ">
+         <td>VALIDIMIR PUTIN</td>
+         <td>St. Peterburg</td>
+         <td>72</td>
+         <td>Male</td>
+      </tr>
+   </table>
+</body>
+</html>
