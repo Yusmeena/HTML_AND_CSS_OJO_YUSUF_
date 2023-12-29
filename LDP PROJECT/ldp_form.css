@@ -1,0 +1,24 @@
+*{
+   margin-left: 10px;
+}
+
+button{
+   background-color: black;
+   color: white;
+   width: 200px;
+   border: none;
+   padding: 10px;
+   margin: 30px;
+}
+
+#already_account{
+   text-decoration: none;
+   color: black;
+   margin: 30px;
+}
+
+#Sign_In{
+   text-decoration: none;
+   color: black;
+   margin: 80px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LPD FORM</title>
+   <link rel="stylesheet" href="D:\IT LEARN\W3 school html\NEW Download\TECH\HTML Pratices\LDP PROJECT\ldp_form.css">
+   <!--LDP form
+      BY Ojo Yusuf Abdulazeez 
+      21/11/2023
+   -->
+</head>
+<body>
+
+   <p>LDP</p>
+   <form action="" method="post">
+      
+      <font color="red" >* </font><label for="firstname">First Name</label><br><br>
+      <input type="text" id="firstname" placeholder="Paul" required><br><br>
+
+      <label for="lastname">Last Name</label><br>
+      <input type="text" id="lastname" placeholder="Maryam" required><br><br>
+
+      <label for="password">Password</label><br>
+      <input type="password" id="password" required ><br><br>
+
+      <label for="confirm_password">Confirm Password</label><br>
+      <input type="password" id="confirm_password"><br><br>
+      
+      <label for="">Gender</label><br>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" required>
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" required>
+
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender"><br><br>
+
+      <label for="dob">Birthday</label>
+      <input type="date" id="dob" required><br><br>
+
+      <label for="skill">Skill</label><br>
+      <input type="text" id="skill" placeholder="Set your skills here"><br><br>
+
+      <label for="native">Native Language</label><br>
+      <select id="native" required>
+         <option>Set your language</option>
+         <option value="yoruba">Yoruba</option>
+         <option value="igbo">Igbo</option>
+         <option value="hausa">Hausa</option>
+         <option value="tiv">Tiv</option>
+         <option value="igala">Igala</option>
+         <option value="nupe">Nupe</option>
+      </select><br><br>
+
+      <label for="other_language">Other language</label><br>
+      <select id="other_language" required>
+         <option>Other languages</option>
+         <option value="english">English</option>
+         <option value="french">French</option>
+         <option value="spanish">Spanish</option>
+         <option value="arabic">Arabic</option>
+      </select><br>
+
+      <input type="checkbox" id="only_native">
+      <label for="only_native">Only Native language</label><br><br>
+
+      <label for="city">Current City</label><br>
+      <input type="text" id="city" placeholder="city" required><br><br>
+
+      <label for="town">Home Town</label><br>
+      <input type="text" id="town" placeholder="town" required>
+      
+  <br><br>
+
+   <input type="submit" name="submit" value="Create Account"><button>Create Account</button>
+   <br><br><br>
+   <a href="#" id="already_account">Already have an account ?</a><br><br>
+ 
+   <a href="#" id="Sign_In">Sign In</a>
+   <!-- <input type="submit" name="submit" value="Submit"> -->
+</form>
+   
+</body>
+</html>
