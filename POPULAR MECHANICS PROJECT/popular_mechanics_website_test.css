@@ -1,0 +1,95 @@
+body{
+   margin: 0px;
+   background-color: white;
+}
+
+#header{
+   background-color: hsl(0, 9%, 87%);
+   height: 60px;
+   
+}
+
+#header .webname{
+   color: hsl(120, 47%, 23%);
+   padding-top:5px;
+   margin-left: 50px;
+}
+
+#header .subscribe{
+   color: white;
+   background-color: hsl(120, 47%, 23%);
+   padding: 10px;
+   border: none;
+   float: right;
+   position: relative;
+   bottom: 40px;
+   margin-right: 100px;
+}
+
+#header .gateway{
+   text-decoration: none;
+   color: black;
+   padding: 5px;
+   float: right;
+   position: relative;
+   bottom: 35px;
+   margin-right: -170px;
+}
+
+p.buy{
+   margin-top: 2px;
+   color: black;
+   background-color: hsl(0, 9%, 87%);
+   height: 40px;
+   text-align: center;
+}
+
+p.buy a{
+   color: black;
+
+}
+.navbar{
+   background-color: hsl(0, 9%, 87%);
+   height: 60px;
+   margin-top: 1px;
+   padding-top:15px;
+}
+
+.navbar a{
+   text-decoration: none;
+   color: black;
+   padding: 15px;
+}
+
+
+.content h2{
+   color: hsl(120, 47%, 23%);
+   padding-top:5px;
+   margin-left: 10px;
+}
+
+.content .section ul{
+   list-style-type: none;
+}
+.content .section a{
+   text-decoration: none; 
+   color: black;
+}
+
+.content #section1{
+   float: left;
+   margin-left: -20px;
+}
+
+
+.content #section2{
+   float: right;
+   margin-right: 150px;
+   /* position: relative;
+   top: 15px; */
+}
+
+.footer a {
+   text-decoration: none;
+   color: black;
+}
