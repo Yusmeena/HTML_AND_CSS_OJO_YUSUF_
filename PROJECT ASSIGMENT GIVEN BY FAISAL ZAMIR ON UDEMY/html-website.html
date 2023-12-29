@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTMLwebpage</title>
+      <!--26/11/2023
+   By Ojo Yusuf Abdulazeez
+   Assiignment given by Fasail Zamir on Udemy
+   -->
+
+   <style>
+      body{
+         margin-top: 0px;
+         margin-bottom: 0px;
+      }
+      #wrapper{
+         
+         height: 900px;
+         width: 900px;
+         background-color: gray;
+      }
+
+         #header{
+            background-color: orange;
+            height: 100px;
+            width: 900px;
+         }
+
+         #header li{
+                  list-style-type: none;
+                  font-family: cursive;
+                  font-size: 14px;
+                  margin-left: 5px;
+         }
+
+
+         #header #greet{
+                  list-style-type: none;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  font-size: 14px;
+                  float: right;
+                  margin-top: -89px;
+                  margin-right: 71px;
+                  
+         }
+
+         #header #webname{
+                  list-style-type: none;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  font-size: 15px;
+                  float: right;
+                  margin-top: -70px;
+                  margin-right: 132px;
+                  
+         }
+      
+
+
+         #nav ul{
+            list-style-type: none;
+            margin-left: -40px;
+            
+         }
+
+         #nav ul li {
+            float: left;
+            background-color: black;
+            padding: 15px;
+            margin-top: -16px;
+         }
+
+         #nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            margin-left: 33px;
+         }
+
+        #right-content {
+                     height: 700px;
+                     width: 650px;
+                     background-color: aqua;
+                     float: left;
+         }
+
+
+         #left-content {
+                     height: 700px;
+                     width: 250px;
+                     background-color: maroon;
+                     float: right;
+         }
+
+         #footer{
+                     height: 200px;
+                     width: 900px;
+                     background-color: blue;
+                     
+         }
+
+
+       #left-content  ul{
+               list-style-type: none;
+               margin-left: -35px;
+               
+         }
+
+         #sidebar:hover  {
+               
+               opacity: 0.6;
+         }
+        ul li #sidebar{
+            text-decoration: none;
+            color: white;
+         }
+
+          #course a{
+            text-decoration: none;
+            color: white;
+            
+         }
+
+        #course li{
+         display: none;
+        }
+
+        /* #left-content:hover #course li{
+         display: block;
+        } */
+
+        
+        
+        li:hover #course li{
+         display: block;
+        }
+
+   </style>
+</head>
+<body>
+   <div id="wrapper">
+
+      <div id="header">
+         <li>Learn</li>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>SEO</li>
+         <li>WEB DESIGNING</li>
+
+         <li id="greet">Welcome to my school</li>
+         <li id="webname">MScool.com</li>
+      </div>
+
+      <div id="nav">
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">TEMPLATES</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">CONNECT US</a></li>
+         </ul>
+
+      </div>
+
+      <div id="right-content">
+
+      </div>
+
+      <div id="left-content">
+         <ul>
+            <li><a href="#" id="sidebar">Other Links</a>
+            
+               <ul id="course">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">JAVA</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">PYTHON</a></li>
+                  <li><a href="#">C++</a></li>
+               </ul>
+            </li>
+         </ul>
+         
+      </div>
+
+      <div id="footer">
+
+      </div>
+
+     
+   </div>
+</body>
+</html>
